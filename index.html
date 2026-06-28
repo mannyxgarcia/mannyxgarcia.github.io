@@ -1,68 +1,116 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emmanuel Garcia | CST 336 Web Development</title>
 
-    <head>
-        <meta charset="UTF-8">
-        <title> Emmanuel Garcia: Portfolio </title>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-        <link href="css/styles.css" rel="stylesheet">
-        
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Spicy+Rice&display=swap" rel="stylesheet">
-        <style>
-            /* body {
-                background-color: #000066 !important;
-            } */
-        </style>
-    </head>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
 
-    <body>
-        <header>
-            <h1> Emmanuel Garcia </h1>
-        </header>
-        <hr>
-        <nav>
-            <a href="index.html" class="active">Home</a>
-            <a href="about.html">About</a>
-            <a href="contact.html">Contact</a>
-        </nav>
-        
-        <br><br>
-        
-        <main>
-            
-            <figure>
-                <img src="img/profile.jpeg" alt="Picture of Juan Doe">
-            </figure>
-            
-            <div>
-                Hello! <br />
-                <p>Thank you for visiting my professional portfolio website.</p>
-                
-                <p>I am a software Engineer and have been recently hired at the Acme Corporation.</p>
-                
-                <p>Feel free to contact me!</p>
-                
-                <br><br>
-                
-                <em>"With ordinary talent and extraordinary preserverance, all things are attainable"</em>
-                <br>
-                -Thomas F. Buxton
-            </div>
-            
-        </main>
-        
-        <footer>
-             <hr>
-             <img src="img/csumb_logo-1.png" alt="CSUMB Logo" class="csumb-logo">
-             <br>
-             CST336 Internet Programming. 2026&copy; Garcia. <br>
-             <strong>Disclaimer:</strong> The information in this webpage is fictitious. <br>
-        </footer>
-        
-    </body>
+        body{
+            font-family:Arial, Helvetica, sans-serif;
+            background:#f4f4f4;
+            color:#333;
+        }
 
+        header{
+            background:#004080;
+            color:white;
+            padding:30px;
+            text-align:center;
+        }
+
+        header h1{
+            margin-bottom:10px;
+        }
+
+        main{
+            max-width:900px;
+            margin:40px auto;
+            padding:20px;
+        }
+
+        .assignment{
+            background:white;
+            margin:20px 0;
+            padding:25px;
+            border-radius:10px;
+            box-shadow:0 3px 10px rgba(0,0,0,.15);
+        }
+
+        .assignment h2{
+            color:#004080;
+            margin-bottom:10px;
+        }
+
+        .assignment p{
+            margin-bottom:20px;
+        }
+
+        a.button{
+            display:inline-block;
+            background:#0077cc;
+            color:white;
+            text-decoration:none;
+            padding:12px 24px;
+            border-radius:6px;
+            transition:.3s;
+        }
+
+        a.button:hover{
+            background:#005fa3;
+        }
+
+        footer{
+            margin-top:50px;
+            text-align:center;
+            padding:20px;
+            background:#004080;
+            color:white;
+        }
+    </style>
+
+</head>
+
+<body>
+
+<header>
+    <h1>Manny Garcia</h1>
+    <p>CST Web Development Portfolio</p>
+</header>
+
+<main>
+
+    <div class="assignment">
+        <h2>Lab 1</h2>
+        <p>
+            My first HTML and CSS lab assignment introducing basic webpage
+            structure, navigation, images, and styling.
+        </p>
+
+        <a class="button" href="lab1/">View Lab 1</a>
+    </div>
+
+    <div class="assignment">
+        <h2>Homework 1</h2>
+        <p>
+            A four-page website about a Computer Science topic using HTML and
+            CSS with custom styling, navigation, multiple layouts, and images.
+        </p>
+
+        <a class="button" href="hw1/">View Homework 1</a>
+    </div>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 Emmanuel Garcia | California State University, Monterey Bay</p>
+</footer>
+
+</body>
 </html>
