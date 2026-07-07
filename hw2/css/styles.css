@@ -1,0 +1,86 @@
+/* ---------- Page ---------- */
+
+body {
+  background: url('https://images.unsplash.com/photo-1524661135-423995f22d0b');
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: Georgia, serif;
+}
+
+/* ---------- Header ---------- */
+
+h1 {
+  background: linear-gradient(to right, #5c3b1e, #a5773b, #5c3b1e);
+  color: #f7e8b2;
+  text-shadow: 2px 2px black;
+  border-bottom: 5px solid #2b1708;
+}
+
+/* ---------- Main Container ---------- */
+
+.container {
+  max-width: 900px;
+}
+
+.quiz-container {
+  background: #f6e6bb;
+  border: 5px solid #5d3a1a;
+  border-radius: 18px;
+  padding: 35px;
+  box-shadow: 0 0 20px black;
+}
+
+/* ---------- Questions ---------- */
+
+.question {
+  background: #fff8e6;
+  border: 2px solid #8d5f32;
+  border-radius: 15px;
+  padding: 20px;
+  margin-bottom: 25px;
+}
+
+.question h3 {
+  color: #44290f;
+}
+
+/* ---------- Inputs ---------- */
+
+input[type='text'],
+select {
+  width: 300px;
+  margin: auto;
+  border: 2px solid #5d3a1a !important;
+}
+
+/* ---------- Labels ---------- */
+
+label {
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+/* ---------- Feedback ---------- */
+
+#totalScore,
+#totalAttempts {
+  margin-top: 20px;
+  padding: 15px;
+  background: #fff5d6;
+  border: 3px solid #5d3a1a;
+  border-radius: 12px;
+}
+
+/* ---------- Button ---------- */
+
+button {
+  font-size: 1.3rem !important;
+  font-weight: bold !important;
+}
+
+/* ---------- Check/X Images ---------- */
+
+img {
+  width: 35px;
+  margin-right: 10px;
+}
