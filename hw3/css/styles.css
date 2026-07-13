@@ -1,0 +1,83 @@
+body {
+  background:
+    url('../img/beige-paper.png'), linear-gradient(to bottom, #fbf2dd, #f4e2b8);
+
+  background-repeat: repeat;
+  background-size: auto;
+
+  min-height: 100vh;
+  font-family: Georgia, 'Times New Roman', serif;
+}
+
+h1 {
+  color: #2f5d3a;
+}
+
+.card {
+  background-color: rgba(255, 252, 245, 0.92);
+  border: 1px solid #d8c9a6;
+  border-radius: 16px;
+}
+
+.form-select {
+  border: 1px solid #006b4f;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.form-select:focus {
+  border-color: #006b4f;
+  box-shadow: 0 0 0 0.2rem rgba(0, 107, 79, 0.2);
+}
+
+.btn-success {
+  background-color: #35654d;
+  border-color: #35654d;
+}
+
+.btn-success:hover {
+  background-color: #084f32;
+  border-color: #084f32;
+}
+
+.soot-sprite {
+  width: 50px;
+  height: auto;
+}
+
+.divider hr {
+  color: #cfd8d3;
+  opacity: 1;
+}
+
+.mood-card {
+  padding: 25px;
+}
+
+.form-text {
+  color: #6c757d;
+  font-size: 0.9rem;
+}
+
+.small-note {
+  font-style: italic;
+  color: #6c757d;
+  margin-top: 12px;
+}
+
+.info-box {
+  background: #f8f8f3;
+  border: 1px solid #d8d8d8;
+  border-radius: 10px;
+  padding: 12px;
+  text-align: center;
+}
+
+#moviePoster {
+  max-height: 340px;
+  object-fit: cover;
+}
+
+#movieDescription {
+  line-height: 1.7;
+}
